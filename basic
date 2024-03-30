@@ -1,0 +1,173 @@
+<!-- Complete this worksheet in HTML and CSS. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on HTML tags and CSS. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+
+               
+            p {
+                color: maroon;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+                width: 50%;
+            }
+            #quote {
+                color: grey;
+                font-style: italic;
+                
+            }
+
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 25%;
+            }
+            .bar_label {
+                color: red;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #longer {
+                width: 200px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+
+                
+            }
+            #long {
+                width: 100px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;  
+
+            }
+                
+
+        
+            .book{
+                border: 1px solid palevioletred;
+            }
+
+
+        </style>
+    </head>
+    
+    <body>
+<!--Messing with CSS -->
+   
+
+        <h1> A little bit about me! </h1>
+        
+        <h2>My intro</h2>
+        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <!-- Tags to use: <p>, <strong>, <i> -->
+        <p> My name is <strong>Lily McDonald</strong>, and I am from Bridgewater Massachusetts. I am studying <i> Magazine, News and Digital Journalism </i> at Syracuse University. For fun I like to exercise. My favorite thing to do is go running around campus. I also love to cook and bake. I have an older sister who is graduating from Bryant University in May.
+        
+
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+        <p> This is a website called <a href="https://bakedmagazine.com/ "target="_blank">Baked Magazine.</a></p>
+        <p> This is another website called <a href="https://www.nytimes.com/ "target="_blank">The New York Times.</a></p>
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
+        <p style= "color: #A9A9A9"> My text is gray.</p>
+
+
+        <h2>My favorite meme</h2>
+        <!-- Include: "large_wink.png" as an image -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+        <p> <img src="large_wink.png" alt="an image of a photograph, from Teju Cole's instagram account" height="300px" width="400px"> </p>
+
+    
+        <h2>Why I'm a great student</h2>
+        <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+         
+        <ul>
+            <li>I am <strong> hardworking. </strong> </li>
+            <li>I always <strong> listen </strong> to my professor's lectures. </li>
+            <li>I put my best <strong> effort </strong> into every assignment.</li>
+            <li>I keep <strong> organized </strong> and stay on top of my work.</li>
+        </ul>
+        
+    
+        <h2>Top 3 most famous people from my hometown</h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+        
+        <ol>
+                <li> <a href="https://www.pro-football-reference.com/players/B/BledDr00.htm" target="_blank">Drew Bledsoe</a></li>NFL quarterback for New England Patriots, resided in Bridgewater during his time with team.
+                <li><a href="https://www.baseball-reference.com/players/c/cochrmi01.shtml" target="_blank">Mickey Cochrane</a></li>Baseball Hall of Fame catcher, was born in Bridgewater.
+                <li><a href="https://en.wikipedia.org/wiki/Neil_Cicierega" target="_blank">Neil Cicierga</a></li>An American filmmaker, YouTuber, animator, and musician was born in Bridgewater. 
+                
+            </ol>
+
+
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+        <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+        <p> College can be fun. <br>
+            I have learned new things and made amazing friends.<br>
+            But classes sometimes make my want to run,<br> 
+            as I try my hardest to comprehend. </p>
+
+
+
+        <h2>This is one of my favorite quotes</h2>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+        <p><h3 id="quote">"Time moves slowly, but passes quickly."</h3>  
+           <h3>-The Color Purple</p></h3>
+
+
+        <h2>These are more of my favorite books</h2>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+           
+            
+            <ul>
+                <li class="book">The Nightingale</li>
+                <li class="book">The Great Gatsby</li>
+                <li class="book">The Book Thief</li>
+                
+       
+            </ul>
+            
+
+        <h2>Here's how I normally spend my weekend</h2>
+        <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
+        <!-- Tags to use: <iframe> -->
+        <iframe title="I spend the majority of the weekend hanging out with friends" aria-label="Grouped Bars" id="datawrapper-chart-vG08i" src="https://datawrapper.dwcdn.net/vG08i/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="330" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. (Use the CSS in #longest as a reference.) You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+        <div id="bargraph">
+            <h4>Popularity of sports in America</h4>
+            <p class="bar_label">Football</p>
+            <div id="longest"></div>
+            <p class="bar_label">Basketball</p>
+            <div id="longer"></div>
+            <p class="bar_label">Hockey</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
