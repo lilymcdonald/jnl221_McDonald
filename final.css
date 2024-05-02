@@ -1,10 +1,18 @@
 /*This is the CSS page for our final template.*/
 
+body p {
+	width: 90%;
+	font-size: 17px;
+	font-family: "Merriweather", serif;
+	line-height: 1.8;
+}
+
 body {
 	border: 10px solid transparent;
- 	padding: 15px;
+ 	padding: 8px;
  	border-image: url(download.png) 100 round;
 }
+
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
 	background-color: #cccccc;
@@ -15,6 +23,8 @@ body {
 }
 .header {
 	height: auto;
+	width: 90%;
+	margin: 0 auto;
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
@@ -32,18 +42,23 @@ h4 {
 h3 {
 	font-size: 30px;
 	font-family: "Oswald", sans-serif;
+
+}
+
+h5 {
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
 }
 
 img {
-	float: right;
-	margin-left: 5%;
-	margin-right: 5%;
+	float: none;
+	margin-left: 13%;
 }
 #button {
 	text-align: center;
 	font-size: 20px;
-	background-color: #3C474B;
-	color: #C0E0DE;
+	background-color: #DD9787;
+	color: #F6E7CB;
 	font-weight: bold;
 	padding: 12px;
 	width: 20%;
